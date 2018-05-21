@@ -1,0 +1,46 @@
+body {
+    background-color: orange;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    color: navy;
+    text-decoration: underline;
+    text-align: center;
+}
+
+h3 {
+    font-style: italic;
+    color: darkblue;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    color: darkgreen;
+    font-family: cursive;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex: row;
+    justify-content: space-evenly;
+}
+
+a:link {
+    text-decoration: none;
+    color: navy;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: darkgreen;
+}
+
+hr {
+    color: navy;
+}
